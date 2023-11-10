@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+
+.texto__contato{
+    font-size: 2rem;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.texto__campos{
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1rem;
+    text-indent: 19.4%;
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+legend{
+    font-size: 1.2rem;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    width: 75%; 
+}
+
+.input_padrao{
+    display: block;
+    margin: 10px 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+
+}
+
+.formulario__contato{
+    margin-top: 20px;
+}
+
+.mensagem{
+margin-bottom: 10px;
+}
+
+.botao__formulario{
+    padding: 20px;
+}
+
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function pisca(){
+            var f = document.getElementById('preco-promocao');
+            setInterval(function(){
+                f.style.visibility = (f.style.visibility == 'hidden' ? '' : 'hidden')
+            }, 150);
+        }
+    </script>
+    <title>Promoção</title>
+</head>
+<body onload="pisca();">
+    <div class="promocao">
+        <img src="imagens/RPG.png" class="img_promocao">
+        <p class="txt_promocao">
+            QUINTA-FEIRA MALUCA!!<br>
+            Pizza de Mussarela por apenas:
+        </p>
+        <p class="preco-promocao" id="preco-promocao">R$ 39,90</p>
+    </div>    
+</body> 
+</html>
